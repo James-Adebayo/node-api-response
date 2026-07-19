@@ -1,0 +1,21 @@
+{
+  "name": "api-response",
+  "version": "1.0.0",
+  "description": "A simple API response helper",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "main" : "src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch" : "node --watch src/index.js",
+    "dev" : "node src/index.js",
+    "api-test" : "node --watch test-response/response.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
