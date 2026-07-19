@@ -13,9 +13,9 @@ class Response{
         return {
             success: false,
             message,
-            // errors
+            errors
         }
     }
 }
 
-module.exports = new Response();
+module.exports = Response;
