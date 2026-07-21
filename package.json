@@ -1,17 +1,15 @@
 {
   "name": "@jamesadebayo/api-response",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple API response helper",
   "main": "index.js",
-  "dependencies": {
-    "express": "^5.2.1"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "main" : "src/index.js",
+    "main" : "index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch" : "node --watch src/index.js",
-    "dev" : "node src/index.js",
+    "watch" : "node --watch index.js",
+    "dev" : "node index.js",
     "api-test" : "node --watch test-response/response.cjs"
   },
   "keywords": ["Api response", "Api structure"],
