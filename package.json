@@ -1,5 +1,5 @@
 {
-  "name": "api-response",
+  "name": "@jamesadebayo/api-response",
   "version": "1.0.0",
   "description": "A simple API response helper",
   "main": "index.js",
@@ -14,8 +14,8 @@
     "dev" : "node src/index.js",
     "api-test" : "node --watch test-response/response.cjs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Api response", "Api structure"],
+  "author": "James adebayo",
   "license": "ISC",
   "type": "commonjs"
 }

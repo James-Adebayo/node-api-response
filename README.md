@@ -1,10 +1,10 @@
-# Node API RESPONSE
+# James API RESPONSE
 
 A simple and resuable API response formatter for Node.js applications.
 
 ## INSTALLATION
 ```bash 
-npm install node-api-response
+npm install @jamesadebayo/api-response
 ```
 ## USAGE
 const Response = require('node-api-response);
@@ -48,7 +48,7 @@ message — Response Message
 data — Optional response data
 
 ```bash
-error(nessage);
+error(message);
 ```
 message — Error message
 errors —  Optional
