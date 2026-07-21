@@ -7,7 +7,7 @@ A simple and resuable API response formatter for Node.js applications.
 npm install @jamesadebayo/api-response
 ```
 ## USAGE
-const Response = require('node-api-response);
+const Response = require('@jamesadebayo/api-response);
 const response = new Response();
 
 const result = response.success("User Created", {

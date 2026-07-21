@@ -1,6 +1,6 @@
 {
   "name": "@jamesadebayo/api-response",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple API response helper",
   "main": "index.js",
   "dependencies": {
